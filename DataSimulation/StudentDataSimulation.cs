@@ -46,6 +46,16 @@ namespace StudentApi.DataSimulation
                 Email = "alia.maher@admin.com",
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin123"),
                 Role = "Admin"
+            },
+            new Student
+            {
+                Id = 4,
+                Name = "Ismail Benrahhal",
+                Age = 19,
+                Grade = 44,
+                Email = "ismail.ben@admin.com",
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword("ismailben0123"),
+                Role = "Admin"
             }
         };
     }
